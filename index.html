@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essência & Aura - Blog de Perfumes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Essência & Aura</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#posts">Resenhas</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>O Artefato do Olfato</h1>
+        <p>Descubra as melhores resenhas, notas olfativas e segredos da perfumaria mundial.</p>
+    </section>
+
+    <main id="posts" class="container">
+        <h2>Últimas Resenhas</h2>
+        <div class="grid-posts">
+
+            <article class="card">
+                <span class="categoria">Amadeirado</span>
+                <h3>MISTÉRIO NOTURNO</h3>
+                <p class="descricao">Uma fragrância marcante com notas de topo de bergamota e fundo de âmbar e sândalo.</p>
+                <button onclick="curtirPerfume(this)">❤️ <span class="curtidas">0</span> Curtidas</button>
+            </article>
+
+            <article class="card">
+                <span class="categoria">Floral</span>
+                <h3>FLORAIS DE PRIMAVERA</h3>
+                <p class="descricao">A leveza do jasmim aliada ao toque suave da baunilha fresca para dias ensolarados.</p>
+                <button onclick="curtirPerfume(this)">❤️ <span class="curtidas">0</span> Curtidas</button>
+            </article>
+
+            <article class="card">
+                <span class="categoria">Cítrico</span>
+                <h3>BRISA CÍTRICA</h3>
+                <p class="descricao">Energia pura em forma de perfume. Destaque para notas de limão siciliano e néroli.</p>
+                <button onclick="curtirPerfume(this)">❤️ <span class="curtidas">0</span> Curtidas</button>
+            </article>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Essência & Aura - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
